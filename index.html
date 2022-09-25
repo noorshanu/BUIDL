@@ -102,7 +102,7 @@
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center text-center text-lg-start">
           <h2>Meet<br><span>collaborate</span><br><span>Buidl.</span>
           </h2>
-          <p>Let`s BUIDL the web3 together & stronger.</p>
+          <p>Let`s BUIDL the web3 <span class="auto-input"></span></p>
           <!-- <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#about" class="btn-get-started">Get Started</a>
             <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
@@ -1048,6 +1048,16 @@
   <div id="preloader"></div>
 
   <!-- Vendor JS Files -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script>
+    var options = {
+  strings: [' together and stronger.', ' together and stronger.'],
+  typeSpeed: 40,
+  backSpeed:40,
+  loop:true
+};
+    var typed = new Typed('.auto-input', options);
+    </script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
