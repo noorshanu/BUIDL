@@ -301,7 +301,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color:var(--color-primary);
+  background-color:#ffffff;
 }
 
 .header.sticked {
@@ -2007,7 +2007,7 @@ section {
 }
 .img-side img{
  position: relative;
- top: -15px;
+ top: -65px;
 
 }
 
@@ -2028,16 +2028,20 @@ section {
 }
 
 .hero h2 {
-  font-size: 48px;
+  font-size: 85px;
   font-weight: 700;
   margin-bottom: 20px;
   color:#000;
+}
+.hero-h1{
+  margin-bottom: 24%;
 }
 
 .hero p {
   color:#000;
   font-weight: 400;
   margin-bottom: 30px;
+  font-size: 28px;
 }
 
 .hero .btn-get-started {
